@@ -1,0 +1,25 @@
+{
+  "name": "flappybird",
+  "description": "flappy bird game",
+  "homepage": "https://github.com/TiPiKej/flappyBird",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ./dist/ && live-server",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiPiKej/flappyBird.git"
+  },
+  "author": "Tomasz Kumor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiPiKej/flappyBird/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "live-server": "^1.2.0"
+  },
+  "dependencies": {}
+}

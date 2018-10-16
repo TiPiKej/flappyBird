@@ -1,7 +1,7 @@
 {
   "name": "flappybird",
   "description": "flappy bird game",
-  "homepage": "https://github.com/TiPiKej/flappyBird",
+  "homepage": "https://tipikej.github.io/flappyBird/",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

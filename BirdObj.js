@@ -37,8 +37,7 @@ class BirdObj {
       this.velocity += this.gravity;
       this.top += this.velocity;
 
-      if (this.top > windowHeight - this.birdRadius)
-        this.top = windowHeight - this.birdRadius;
+      if (this.top > windowHeight - this.birdRadius) this.gameOver();
     }
   }
 
